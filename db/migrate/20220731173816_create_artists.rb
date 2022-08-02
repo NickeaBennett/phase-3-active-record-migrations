@@ -5,7 +5,7 @@ class CreateArtists < ActiveRecord::Migration[6.1]
       t.string :genre
       t.integer :age
       t.string :hometown
-      t.string :favorite_flower
+      # t.string :favorite_flower
     end
   end
 end
